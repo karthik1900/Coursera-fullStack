@@ -1,0 +1,96 @@
+/********** Base styles **********/
+body {
+	background: #BB9999;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 175%;
+  color:black;
+}
+
+/*Navbar*/
+
+.navbar-header{
+  width:100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.navbar .container{
+  background: gray;
+  width:100%;
+}
+.navbar-header{
+  position: relative;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f ; 
+}
+.navbar-header button.navbar-toggle{
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+#nav-title{
+  font-size: 2.5em;
+}
+.navbar-collapse{
+  background: #559999;
+}
+#nav-list {
+  margin: 10px;
+}
+#nav-list a{
+  color : #61122f;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+#nav-list a:hover {
+  background: #b7b7b7;
+}
+
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.col-xs-12{
+  padding:0;
+}
+
+.col-xs-12{
+  background-color: #88BBAA;
+  border: black solid 3px;
+  color: #EEFFFF;
+  padding: 20px;
+  height: 90%;
+  font-size: 1.2em;
+  height:1000px;
+}
+.sectiontitle {
+	text-align: center;
+	font-size: 125%;
+
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  
+}

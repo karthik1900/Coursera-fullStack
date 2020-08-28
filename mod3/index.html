@@ -10,7 +10,59 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
-
+  <header>
+    <nav class="navbar navbar-default" id="nav-header">
+      <div class='container'>
+        <div class="navbar-header">
+          <a href = "index.html" alt="Logo" >
+            <div id="nav-logo" class="pull-left visible-md visible-lg visible-sm"></div>
+            <div class="pull-left nav-brand">
+              <h1 id="nav-title">The Music Store</h1>
+              <p>
+                <img src = "../images/star-k-logo.png">
+                <span id = "nav-cert">Certified Store</span>
+              </p>
+            </div>
+          </a>
+          <button type ="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id ="collapsable-nav" class = "collapse navbar-collapse">
+          <ul id="nav-list" class = "nav navbar-nav navbar-right">
+            <li>
+              <a href="../menu.html">
+                <span class = "glyphicon glyphicon-cutlery"></span>
+                <br class = "hidden-xs"> Menu
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class = "glyphicon glyphicon-info-sign"></span>
+                <br class = "hidden-xs"> About
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class = "glyphicon glyphicon-certificate"></span>
+                <br class = "hidden-xs"> Awards
+              </a>
+            </li>
+            <li id = "phone" class = "hidden-xs">
+              <a href = "tel : 456-789-222">
+                <span> 456-789-222</span>
+              </a>
+              <div>
+                *We Deliver
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
