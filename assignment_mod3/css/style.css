@@ -41,6 +41,12 @@ h1 {
 .navbar-collapse{
   background: #559999;
 }
+.navbar-collapse.collapse{
+  display:none!important;
+}
+.navbar-collapse.collapse.in{
+  display:block!important;
+}
 
 #nav-list {
   margin: 10px;
