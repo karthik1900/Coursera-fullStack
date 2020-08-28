@@ -41,12 +41,6 @@ h1 {
 .navbar-collapse{
   background: #559999;
 }
-.navbar-collapse.collapse{
-  display:none!important;
-}
-.navbar-collapse.collapse.in{
-  display:block!important;
-}
 
 #nav-list {
   margin: 10px;
@@ -89,16 +83,17 @@ h1 {
 
 /********** Desktop devices only **********/
 @media (min-width: 992px) {
-/*  .navbar-collapse{
-  background: gray;
-}*/
+
+.navbar-collapse.collapse{
+  display:none!important;
+}
 }
 
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-/*  .navbar-collapse{
-  background: gray;
-}*/
+.navbar-collapse.collapse{
+  display:none!important;
+}
 }
 
 /********** Mobile devices only **********/
