@@ -96,9 +96,6 @@ h1 {
 .navbar-collapse.collapse{
   display:none!important;
 }
-button.visible-xs{
-  display: none!important;
-}
 }
 
 /********** Mobile devices only **********/
